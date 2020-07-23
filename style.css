@@ -49,6 +49,10 @@ body{
 }
 .profile_pic{
     height: 220px;
+    border: 1px solid teal;
+    padding: 3px;
+    border-radius: 3px;
+    margin-bottom: 7px;
 }
 .mmi{
     font-size: 19px;
