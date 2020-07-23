@@ -2,15 +2,17 @@ body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    background-image: linear-gradient(white,#ededed,white, white);
+    background-image: linear-gradient(white,lightsteelblue,white, white);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    min-width: 100% !important;
+
 
 }
 .left_column{
     width: 28%;
-    height: 97vh;
+    max-height: 97vh;
     margin: 5px;
     float: left;
     background-color: white;
@@ -20,7 +22,9 @@ body{
 
     
 }
-
+.link_icon{
+    font-size: 20px;
+}
 .right_column{
     float: right;
     width: 69%;
@@ -57,6 +61,7 @@ body{
 }
 a.nav-link{
     padding: 3px 0px !important;
+    color: teal;
 }
 .section_heading{
     font-size: 32px;
@@ -74,14 +79,14 @@ a.nav-link{
 }
 @media only screen and (max-width: 600px) {
     .left_column{
-        width: 95%;
+        width: 97%;
         position: relative;
     
         
 
     }
     .right_column{
-        width: 95%;
+        width: 97%;
         
 
     }
