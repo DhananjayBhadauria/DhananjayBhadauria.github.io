@@ -12,6 +12,7 @@ body{
 }
 .left_column{
     width: 28%;
+
     max-height: 97vh;
     margin: 5px;
     float: left;
@@ -62,6 +63,7 @@ body{
 a.nav-link{
     padding: 3px 0px !important;
     color: teal;
+    font-size: 20px;
 }
 .section_heading{
     font-size: 32px;
