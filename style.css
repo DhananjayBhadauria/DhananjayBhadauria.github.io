@@ -14,14 +14,14 @@ body{
 .left_column{
     width: 28%;
 
-    max-height: 97vh;
+    
     margin: 5px;
     float: left;
     background-color: white;
     box-shadow: 3px 3px 10px darkgray;
     border: 1px solid darkkhaki;
     position: fixed ;
-
+    overflow: auto;
     
 }
 .left_column::after{
