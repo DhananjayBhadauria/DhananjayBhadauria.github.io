@@ -8,13 +8,18 @@ body{
     background-size: cover;
     min-width: 100% !important;
     columns: darkgray;
+    background-position:fixed;
 
 
 }
+a.active{
+    /* color: black !important; */
+    font-weight: bolder;
+    color: blueviolet !important;
+   
+}
 .left_column{
-    width: 28%;
-
-    
+    width: 28%;    
     margin: 5px;
     float: left;
     background-color: white;
