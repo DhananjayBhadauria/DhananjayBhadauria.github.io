@@ -97,14 +97,28 @@ a.nav-link{
     .left_column{
         width: 97%;
         position: relative;
-    
-        
-
     }
     .right_column{
         width: 97%;
-        
+    }
+  
+  }
+  .skill_heading{
+      font-size: large;
+      margin-bottom: 0px !important;
+  }
+  
 
+
+  @media screen and (max-width: 1000px) and (min-width: 600px)  {
+    .left_column{
+        width: 48%;
+        position: fixed;
+        overflow-y: scroll;
+        max-height: 98vh;
+    }
+    .right_column{
+        width: 50%;
     }
   
   }
