@@ -60,10 +60,18 @@ a.active{
 .profile_pic{
     height: 220px;
     /* border: 1px solid teal; */
+    width: 80%;
     padding: 3px;
     border-radius: 3px;
     margin-bottom: 7px;
 }
+
+@media screen and (max-width:650px){
+    .profile_pic{
+        width: 75%;
+    }
+}
+
 .mmi{
     font-size: 19px;
     color: teal;
