@@ -130,3 +130,10 @@ a.nav-link{
     }
   
   }
+  ul{
+      list-style-type: none;
+  }
+  .list_icon{
+      font-size: 18px;
+      line-height: normal;
+  }
