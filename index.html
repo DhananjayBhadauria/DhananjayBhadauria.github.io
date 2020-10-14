@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style.css">
 
 </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="15" style="position: relative;">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="30" style="position: relative;">
 
     <!-- A vertical navbar -->
 <div>
@@ -45,11 +45,15 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href=""><span class="material-icons link_icon">double_arrow</span> Projects</a>
+            <a class="nav-link" href="#projects"><span class="material-icons link_icon">double_arrow</span> Projects</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href=""><span class="material-icons link_icon">double_arrow</span> Extracurricular Activities</a>
+            <a class="nav-link" href="#training"><span class="material-icons link_icon">double_arrow</span>Training & Extracurricular</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#contactme"><span class="material-icons link_icon">double_arrow</span>Contact</a>
           </li>
 
           <li class="nav-item" style=" position: relative; bottom: 0px;">
@@ -207,7 +211,188 @@
   <!-- ending skills section -->
 
 
+  <!-- starting projects section -->
+  <div class="right_column" id="projects" >
+    <div class="inner_right_box">
+        <section>
+        <p class="section_heading"><span class="material-icons smi">keyboard</span> Projects</p>
+           <hr>
+           <div class="sub_section">
+            <h5>School Management Portal </h5>
+  <ul>
+    <li><span class="material-icons list_icon">east</span> A web app where any school can create account and manage all activities online
+    </li>
+    <li><span class="material-icons list_icon">east</span> Complete school solution, all modules related to school added</li>
 
+    <li><span class="material-icons list_icon">east</span> Bootstrap, JQuery, AJAX for frontend and Django framework for backend
+      </li>
+  </ul>
+        </div>
+
+
+        <div class="sub_section">
+          <h5>Mini Social Network </h5>
+<ul>
+  <li><span class="material-icons list_icon">east</span> A full web application developed on Django where people can share their posts</li>
+
+  <li><span class="material-icons list_icon">east</span> Users can register, login, change password all account related functions</li>
+
+  <li><span class="material-icons list_icon">east</span> Complete security over deleting and editing posts</li>
+</ul>
+      </div>
+
+      <div class="sub_section">
+        <h5>Tutorials Website </h5>
+<ul>
+<li><span class="material-icons list_icon">east</span> A tutorials website where admin can create courses and add topics related to course</li>
+
+<li><span class="material-icons list_icon">east</span> Different roles with different permissions</li>
+
+<li><span class="material-icons list_icon">east</span> Developed on Angular 10</li>
+</ul>
+    </div>
+
+    <div class="sub_section">
+      <h5>Visitors Log </h5>
+<ul>
+<li><span class="material-icons list_icon">east</span> An application where one can maintain the visitors at any org or clinic</li>
+
+<li><span class="material-icons list_icon">east</span> User can store all information of their visitors and can track their visits</li>
+
+<li><span class="material-icons list_icon">east</span> Developed on Django framework</li>
+</ul>
+  </div>
+
+        </section>
+    </div>    
+    </div>
+  <!-- ending projects section -->
+
+  <!-- starting training and extraa curricular section -->
+  <div class="right_column" id="training" >
+    <div class="inner_right_box">
+        <section>
+        <p class="section_heading"><span class="material-icons smi">school</span> Training & Extracurricular</p>
+           <hr>
+<div class="sub_section">
+    <h5>PHP: CETPA Lucknow</h5>
+    <ul>
+      <li><span class="material-icons list_icon">east</span> Completed four weeks summer training from CETPA, Lucknow center</li>
+    
+      <li><span class="material-icons list_icon">east</span> training was based web development using php.
+        </li>
+    
+    </ul>
+
+</div>
+
+<div class="sub_section">
+  <h5>All India Radio</h5>
+  <ul>
+    <li><span class="material-icons list_icon">east</span> Completed 4 weeks summer training from All India Radio, Kanpur</li>
+  
+    <li><span class="material-icons list_icon">east</span> Focus was on how broadcasting is done and equipment used
+      </li>
+  </ul>
+</div>
+
+<div class="sub_section">
+  <h5>NEACS:NGO</h5>
+  <ul>
+    <li><span class="material-icons list_icon">east</span> Volunteer</li>
+  </ul>
+</div>
+
+<div class="sub_section">
+  <h5>College Drama Society</h5>
+  <ul>
+    <li><span class="material-icons list_icon">east</span> Member</li>
+  </ul>
+</div>
+
+        </section>
+    </div>    
+    </div>
+  <!-- ending training and extraa curricular section -->
+
+  <!-- starting contact us form section -->
+  <div class="right_column" id="contactme" >
+    <div class="inner_right_box">
+        <section>
+        <p class="section_heading"><span class="material-icons smi">mail</span> Send a Message...</p>
+           <hr>
+<div class="">
+  <form id="contact_form">
+    <h4 id="response_block" style="color: green;"></h4>
+     <!-- block for api respone --> 
+    <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Enter Your Full Name..." class="form-control form-control-sm" required>
+    </div>
+
+    <div class="form-group">
+        <input type="number" name="contact" id="contact" class="form-control form-control-sm" placeholder="10 Digit Number" required>
+    </div>
+
+    <div class="form-group">
+
+        <input type="email" name="email" id="email" class="form-control form-control-sm" placeholder="Email (optional) ">
+    </div>
+
+    
+    <div class="form-group">
+        <textarea name="message" id="message" class="form-control form-control-sm" rows="3" placeholder="Type Your Message" required></textarea>
+    </div>
+    
+    <!-- owners email here -->
+    <input type="hidden" name="to_mail" id="to_mail" value="writetodhananjay@gmail.com">
+    <input type="hidden" name="check" id="check" placeholder="check">
+    <div class="spinner-border text-primary text-center" id="form_spin" role="status" style="display: none;">
+        <span class="sr-only">Loading...</span>
+      </div>
+    <input type="button" class="btn btn-success" value="Send Message" id="submit_form">
+    
+</form>
+
+<script>
+    $('document').ready(function(){
+    $('#submit_form').click(function(){
+        if (!($('#name').val()) || !$('#contact').val() ){
+            alert('Please fill all details carefully then try again !!!')
+            return false;
+        }
+        // method if empty check robo field is filled
+        if ($('#check').val()){
+            alert('robo caught')
+            return false;
+        }
+        $('#form_spin').css('display','block')
+        $.ajax({
+            type:'GET',
+            data: {'name': $('#name').val(),
+            'contact': $('#contact').val(),
+            'email': $('#email').val(),
+            'message': $('#message').val(),
+            'to_mail': $('#to_mail').val(),
+            },
+            url:'http://dhananjaybhadauria.pythonanywhere.com/api/sending_contact_message/',
+            success: function(msg){
+                $('#response_block').html(msg)
+                $('#form_spin').css('display','none')
+                $('#contact_form')[0].reset();
+                
+            }
+        })
+    })
+    })
+</script>
+</div>
+
+
+        </section>
+    </div>    
+    </div>
+
+  <!-- ending contact us form section -->
 
 </div>  
 </body>
