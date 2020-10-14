@@ -131,7 +131,7 @@ a.nav-link{
   
   }
   ul{
-      list-style-type: none;
+      list-style-type: none !important;
   }
   .list_icon{
       font-size: 18px;
