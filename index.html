@@ -1,571 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <link rel="stylesheet" , href="./rcs.css">
 
-  <title>Dhananjay Bhadauria</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="prefetch stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <script>
+        window.console = window.console || function (t) { };
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+    <style>
+        .card-header {
+            background-color: #4682bf !important;
+            color: white !important;
+        }
+    </style>
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="30" style="position: relative">
-  <!-- A vertical navbar -->
-  <div>
-    <nav class="navbar bg-light left_column" id="myScrollspy">
-      <div style="border-bottom: 1px solid gray; padding-bottom: 5px">
-        <img src="./profile_pic.jpg" class="profile_pic" />
-        <h5>Dhananjay Singh Bhadauria</h5>
-        <p class="dpa">
-          <span class="material-icons mmi">work</span> Web Developer
-        </p>
-        <p class="dpa">
-          <span class="material-icons mmi">location_on</span> Fatehpur, Uttar
-          Pradesh, India
-        </p>
-        <p class="dpa">
-          <span class="material-icons mmi">phone</span> +91 8090831662
-        </p>
-        <p class="dpa">
-          <span class="material-icons mmi">mail</span>
-          writetodhananjay@gmail.com
-        </p>
-      </div>
-
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#work_experience"><span class="material-icons link_icon">double_arrow</span> Work
-            Experience</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#education"><span class="material-icons link_icon">double_arrow</span>
-            Education</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#skills"><span class="material-icons link_icon">double_arrow</span>
-            Skills</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#projects"><span class="material-icons link_icon">double_arrow</span>
-            Projects</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#training"><span class="material-icons link_icon">double_arrow</span>Training &
-            Extracurricular</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#contactme"><span class="material-icons link_icon">double_arrow</span>Contact</a>
-        </li>
-
-        <li class="nav-item" style="position: relative; bottom: 0px">
-          <a target="_blank" href="https://www.linkedin.com/in/dhananjay-bhadauria-22146694/"
-            style="font-weight: bold; color: #0274b3"><img src="./linkedin.jpg" class="img-fluid" width="40px"
-              height="40px" />
-          </a>
-
-          <a target="_blank" href="https://wa.link/svup03" style="font-weight: bold; color: #0274b3"><img
-              src="./whatsapp.png" class="img-fluid" width="40px" height="40px" />
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- starting work experience section -->
-    <div class="right_column" id="work_experience">
-      <div class="inner_right_box">
-        <section>
-          <p class="section_heading">
-            <span class="material-icons smi">work</span> Work Experience
-          </p>
-          <hr />
-          <!-- starting algoscel experience section -->
-          <div class="sub_section">
-            <h5>Software Developer at Algoscale Technologies</h5>
-            <h6 class="sub_time">
-              <span class="material-icons">calendar_today</span> Currently
-              Working from February 2021
-            </h6>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> Developing and maintaining full fledged
-                Web applications using Django framework
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> VueJs for Frontend
-              </li>
-            </ul>
-          </div>
-          <!-- ending algoscel experience section -->
-
-          <!-- starting tech lead experience at trueblue -->
-          <div class="sub_section">
-            <h5>Tech Lead at TrueBlue AppWerks</h5>
-            <h6 class="sub_time">
-              <span class="material-icons">calendar_today</span> From June 2020 to January 2021
-            </h6>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> Lead
-                developer of the team
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Designing
-                flow and structure of web app
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Conduct
-                code reviews and maintain quality of code
-              </li>
-            </ul>
-          </div>
-
-          <!-- ending tech lead experience at trueblue -->
-
-          <!-- starting full stack dev experience at trueblue -->
-          <div class="sub_section">
-            <h5>Full Stack Web Developer at TrueBlue AppWerks</h5>
-            <h6 class="sub_time">
-              <span class="material-icons">calendar_today</span> From July
-              2018 to June 2020
-            </h6>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> Creating
-                and maintaining web apps
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> HTML, CSS,
-                Bootstrap, JQuery, AJAX as frontend technologies
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Django web
-                framework for backend
-              </li>
-            </ul>
-          </div>
-
-          <!-- ending full stack dev experience at trueblue -->
-
-          <!-- starting exectutive experience at cogent e services commented -->
-          <!-- <div class="sub_section">
-              <h5>
-                Customer Services Executive at Cogent E. Services PVT. LTD.
-              </h5>
-              <h6 class="sub_time">
-                <span class="material-icons">calendar_today</span> From Sept.
-                2016 to Dec. 2016
-              </h6>
-              <ul>
-                <li>
-                  <span class="material-icons list_icon">east</span> Full time
-                  employee
-                </li>
-
-                <li>
-                  <span class="material-icons list_icon">east</span> Worked as
-                  customer services executive
-                </li>
-              </ul>
-            </div> -->
-
-          <!-- ending exectutive experience at cogent e services commented -->
-        </section>
-      </div>
-    </div>
-    <!-- ending work experience section -->
-
-    <!-- starting eduction section -->
-    <div class="right_column" id="education">
-      <div class="inner_right_box">
-        <section>
-          <p class="section_heading">
-            <span class="material-icons smi">school</span> Education
-          </p>
-          <hr />
-          <div class="sub_section">
-            <h5>Bachelor of Technology in Electronics and Communication</h5>
-            <h6 class="sub_time">
-              <span class="material-icons">calendar_today</span> 2016
-            </h6>
-            <p>
-              Completed Bachelor of Technology in Electronics and
-              Communication Engineering in 2016 from Abdul Kalam Technical
-              University formerly known as Uttar Pradesh Technical University.
-            </p>
-          </div>
-
-          <div class="sub_section">
-            <h5>Intermediate (PCM)</h5>
-            <h6 class="sub_time">
-              <span class="material-icons">calendar_today</span> 2011
-            </h6>
-            <p>
-              Completed my 12th from Saraswati Vidya mandir Inter College,
-              Fatehpur, Uttar Pradesh
-            </p>
-          </div>
-
-          <div class="sub_section">
-            <h5>High - School</h5>
-            <h6 class="sub_time">
-              <span class="material-icons">calendar_today</span> 2009
-            </h6>
-            <p>
-              Completed my 10th from Saraswati Vidya mandir Inter College,
-              Fatehpur, Uttar Pradesh
-            </p>
-          </div>
-        </section>
-      </div>
-    </div>
-    <!-- ending education section -->
-
-    <!-- starting skills section -->
-    <div class="right_column" id="skills">
-      <div class="inner_right_box">
-        <section>
-          <p class="section_heading">
-            <span class="material-icons smi">keyboard</span> Skills
-          </p>
-          <hr />
-
-          <div class="sub_section">
-            <p class="skill_heading">HTML & CSS</p>
-            <div class="progress">
-              <div class="
-                    progress-bar progress-bar-striped progress-bar-animated
-                  " style="width: 80%">
-                <b>80%</b>
-              </div>
+<body>
+    <div class="wrapper">
+        <div class="intro">
+            <div class="profile">
+                <div class="photo">
+                    <img src="./1657611958179.jpeg">
+                </div>
+                <div class="bio">
+                    <h1 class="name">Dhananjay Singh Bhadauria</h1>
+                    <p class="profession">Software Developer</p>
+                </div>
             </div>
-            <hr />
-
-            <p class="skill_heading">Bootstrap</p>
-            <div class="progress">
-              <div class="
-                    progress-bar progress-bar-striped progress-bar-animated
-                  " style="width: 75%">
-                <b>75%</b>
-              </div>
+            <div class="intro-section about">
+                <h1 class="title">about me</h1>
+                <p class="paragraph">
+                    Hi everyone, I am seeking position in a prominent and rapidly expanding company which gives me an
+                    opportunity to grow with it. I am always energetic and eager to learn new skills.
+                </p>
             </div>
-            <hr />
+            <div class="intro-section contact">
+                <h1 class="title">Contact</h1>
+                <hr>
+                <div class="info-section">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 8090831662</span>
+                </div>
+                <div class="info-section">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Fatehpur, Uttar Pradesh</span>
+                </div>
+                <div class="info-section">
+                    <i class="fas fa-paper-plane"></i>
+                    <a href="mailto:writetodhananjay@gmail.com">writetodhananjay@gmail.com</a>
+                </div>
 
-            <p class="skill_heading">JavaScript, JQuery & Ajax</p>
-            <div class="progress">
-              <div class="
-                    progress-bar progress-bar-striped progress-bar-animated
-                  " style="width: 70%">
-                <b>70%</b>
-              </div>
             </div>
-            <hr />
+            <div class="intro-section follow">
+                <h1 class="title">Follow</h1>
+                <hr>
+                <div class="info-section link">
+                    <i class="fab fa-linkedin"></i>
+                    <a class="text-primary" target="_blank" rel="author" href="https://www.linkedin.com/in/dhananjay-bhadauria-22146694/">
+                        <span>https://www.linkedin.com/in/dhananjay-bhadauria-22146694/</span>
+                    </a>
+                </div>
+                <div class="info-section link">
+                    <i class="fab fa-github"></i>
+                    <a class="text-primary" target="_blank" rel="author" href="https://github.com/DhananjayBhadauria">
+                        <span>https://github.com/DhananjayBhadauria</span>
+                    </a>
+                </div>
+                <div class="info-section link">
+                    <i class="fab fa-codepen"></i>
+                    <a class="text-primary" target="_blank" rel="author" href="https://dhananjaybhadauria.github.io/">
+                        <span>https://dhananjaybhadauria.github.io/</span>
+                    </a>
+                </div>
 
-            <p class="skill_heading">Vue JS</p>
-            <div class="progress">
-              <div class="
-                    progress-bar progress-bar-striped progress-bar-animated
-                  " style="width: 55%">
-                <b>55%</b>
-              </div>
             </div>
-            <hr />
+        </div>
+        <div class="detail">
 
-            <!-- <p class="skill_heading">WordPress</p>
-            <div class="progress">
-              <div class="
-                    progress-bar progress-bar-striped progress-bar-animated
-                  " style="width: 60%">
-                <b>60%</b>
-              </div>
-            </div> -->
-            <!-- <hr /> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="detail-section edu">
+                            <div class="detail-title">
+                                <div class="title-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <span>Work Experience</span>
+                            </div>
+                            <div class="detail-content">
+                                <div class="timeline-block">
+                                    <h1>Software Developer <time>July 18, 2022 - Present</time></h1>
+                                    <a href="https://www.linkedin.com/company/cintamedtech/mycompany/" target="_blank">Cinta Medtech, Gurugram</a>
+                                    <p>&rArr; Django Rest Framework, MongoDB, Celery</p>
+                                    <br>
 
-            <p class="skill_heading">Python & Django</p>
-            <div class="progress">
-              <div class="
-                    progress-bar progress-bar-striped progress-bar-animated
-                  " style="width: 70%">
-                <b>75%</b>
-              </div>
+                                </div>
+                                <div class="timeline-block">
+                                    <h1>Software Developer <time>February 1, 2021 - July 15, 2022</time></h1>
+                                    <a href="https://www.linkedin.com/company/algoscale/" target="_blank">Algoscale Technologies, Noida</a>
+                                    <p>&rArr; Django Rest Framework, MongoDB, Celery</p>
+                                    <br>
+                                </div>
+
+                                <div class="timeline-block">
+                                    <h1>Full Stack Developer <time>July 16, 2018 - January 31, 2021</time></h1>
+                                    <a href="https://www.linkedin.com/company/trueblueappwerkspvtltd/" target="_blank">TrueBlue AppWerks, Kanpur</a>
+
+                                    <p>&rArr; Django, HTML, CSS, JavaScript, Jquery, Ajax</p>
+
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="detail-section edu">
+                            <div class="detail-title">
+                                <div class="title-icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <span>Eduation</span>
+                            </div>
+                            <div class="detail-content">
+                                <div class="timeline-block">
+                                    <h1>Bachelor of Technology <time>2016</time></h1>
+                                    <a>Dr. Abdul Kalam Technical University, Uttar Pradesh</a>
+
+                                    <p>&rArr; Electronics and Communication Engineering</p>
+
+                                    <p></p>
+                                </div>
+                                <div class="timeline-block">
+                                    <h1>Intermediate <time>2011</time></h1>
+                                    <a>Saraswati Vidya Mandir Inter College, VIP Road, Fatehpur</a>
+                                    <p>&rArr; Physics, Chemistry, Mathematics</p>
+
+                                    <p></p>
+                                </div>
+                                <div class="timeline-block">
+                                    <h1>High School <time>2009</time></h1>
+                                    <a>Saraswati Vidya Mandir Inter College, VIP Road, Fatehpur</a>
+                                    <p>&rArr; Physics, Chemistry, Mathematics</p>
+
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <hr />
 
-            <p class="skill_heading">AWS EC2</p>
-            <div class="progress">
-              <div class="
-                    progress-bar progress-bar-striped progress-bar-animated
-                  " style="width: 60%">
-                <b>60%</b>
-              </div>
+
+
+
+
+
+
+
+            <div class="detail-section pg-skill">
+                <div class="detail-title">
+                    <div class="title-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <span>Programming skills</span>
+                </div>
+                <div class="detail-content">
+                    <ul class="pg-list">
+                        <li>
+                            <span>Python</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Django Rest</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Javascript</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 50%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>JQuery, Ajax</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 50%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>HTML, CSS</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 70%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Bootstrap</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Selenium</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 50%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <hr />
-          </div>
-        </section>
-      </div>
+            <div class="detail-section tool-skill">
+                <div class="detail-title">
+                    <div class="title-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <span>Projects Undertaken</span>
+                </div>
+                <div class="detail-content">
+                    <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow ">
+                                <div class="card-header py-3 text-bg-info">
+                                    <h6 class="my-0 fw-normal">Zury (My 121 Fitness)</h6>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        In this women fitness app Created Lead Management System for Dietitian, Fetched
+                                        data from MongoDB database, S3 Client to handle media files and improved web app
+                                        performance significantly using indexing.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow">
+                                <div class="card-header py-3 text-bg-info ">
+                                    <h6 class="my-0 fw-normal">Easiloan</h6>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        In this Financial Tech product wrote some Celery tasks to automate stuff, Worked
+                                        with SalesForce Apis to Sync Leads between two systems and created lead
+                                        management system using Django Rest Framework.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow">
+                                <div class="card-header py-3 text-bg-info ">
+                                    <h6 class="my-0 fw-normal">Digital Marketing Data Warehouse</h6>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        Created a Data warehouse for a client that syncs data from Facebook Ads, Google
+                                        Analytics and Shopify store to client's database and visualized data using Chart
+                                        Js to Analyze the data and help to Grow the Business.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow">
+                                <div class="card-header py-3 text-bg-info ">
+                                    <h6 class="my-0 fw-normal">School Management System</h6>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        Created This SASS platform for schools where a school can create its profile and
+                                        manage all their activities online. Create Features like student attendance,
+                                        online payment gateway using Paytm. Django for Backend and HTML, CSS,
+                                        Javascript, Ajax, Jquery for front end.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="detail-section interests">
+                <div class="detail-title">
+                    <div class="title-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <span>Extra-Curricular</span>
+                </div>
+                <div class="detail-content">
+                    <div class="d-flex justify-content-center">
+
+                        <div class="p-4 shadow" style="max-width: 33%;">
+                            <p> <i class="fas fa-check"></i> Won most sincere award in Camp in Campus event.</p>
+                        </div>
+                        <div class="p-4 shadow" style="max-width: 33%;"><i class="fas fa-check"></i> Organized Sports
+                            Quiz in College Events</div>
+                        <div class="p-4 shadow" style="max-width: 33%;"><i class="fas fa-check"></i> Member of College
+                            Drama Society "Leela"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- ending skills section -->
-
-    <!-- starting projects section -->
-    <div class="right_column" id="projects">
-      <div class="inner_right_box">
-        <section>
-          <p class="section_heading">
-            <span class="material-icons smi">keyboard</span> Projects
-          </p>
-          <hr />
-          <div class="sub_section">
-            <h5>School Management Portal</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> A web app
-                where any school can create account and manage all activities
-                online
-              </li>
-              <li>
-                <span class="material-icons list_icon">east</span> Complete
-                school solution, all modules related to school added
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Bootstrap,
-                JQuery, AJAX for frontend and Django framework for backend
-              </li>
-            </ul>
-          </div>
-
-          <div class="sub_section">
-            <h5>Mini Social Network</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> A full web
-                application developed on Django where people can share their
-                posts
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Users can
-                register, login, change password all account related functions
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Complete
-                security over deleting and editing posts
-              </li>
-            </ul>
-          </div>
-
-          <div class="sub_section">
-            <h5>Tutorials Website</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> A tutorials
-                website where admin can create courses and add topics related
-                to course
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Different
-                roles with different permissions
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Developed
-                on Angular 10
-              </li>
-            </ul>
-          </div>
-
-          <div class="sub_section">
-            <h5>Visitors Log</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> An
-                application where one can maintain the visitors at any org or
-                clinic
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> User can
-                store all information of their visitors and can track their
-                visits
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Developed
-                on Django framework
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
-    </div>
-    <!-- ending projects section -->
-
-    <!-- starting training and extraa curricular section -->
-    <div class="right_column" id="training">
-      <div class="inner_right_box">
-        <section>
-          <p class="section_heading">
-            <span class="material-icons smi">school</span> Training &
-            Extracurricular
-          </p>
-          <hr />
-          <div class="sub_section">
-            <h5>PHP: CETPA Lucknow</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> Completed
-                four weeks summer training from CETPA, Lucknow center
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> training
-                was based web development using php.
-              </li>
-            </ul>
-          </div>
-
-          <div class="sub_section">
-            <h5>All India Radio</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> Completed 4
-                weeks summer training from All India Radio, Kanpur
-              </li>
-
-              <li>
-                <span class="material-icons list_icon">east</span> Focus was
-                on how broadcasting is done and equipment used
-              </li>
-            </ul>
-          </div>
-
-          <div class="sub_section">
-            <h5>NEACS:NGO</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> Volunteer
-              </li>
-            </ul>
-          </div>
-
-          <div class="sub_section">
-            <h5>College Drama Society</h5>
-            <ul>
-              <li>
-                <span class="material-icons list_icon">east</span> Member
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
-    </div>
-    <!-- ending training and extraa curricular section -->
-
-    <!-- starting contact us form section -->
-    <div class="right_column" id="contactme">
-      <div class="inner_right_box">
-        <section>
-          <p class="section_heading">
-            <span class="material-icons smi">mail</span> Send a Message...
-          </p>
-          <hr />
-          <div class="">
-            <form id="contact_form">
-              <h4 id="response_block" style="color: green"></h4>
-              <!-- block for api respone -->
-              <div class="form-group">
-                <input type="text" id="name" name="name" placeholder="Enter Your Full Name..."
-                  class="form-control form-control-sm" required />
-              </div>
-
-              <div class="form-group">
-                <input type="number" name="contact" id="contact" class="form-control form-control-sm"
-                  placeholder="10 Digit Number" required />
-              </div>
-
-              <div class="form-group">
-                <input type="email" name="email" id="email" class="form-control form-control-sm"
-                  placeholder="Email (optional) " />
-              </div>
-
-              <div class="form-group">
-                <textarea name="message" id="message" class="form-control form-control-sm" rows="3"
-                  placeholder="Type Your Message" required></textarea>
-              </div>
-
-              <!-- owners email here -->
-              <input type="hidden" name="to_mail" id="to_mail" value="writetodhananjay@gmail.com" />
-              <input type="hidden" name="check" id="check" placeholder="check" />
-              <div class="spinner-border text-primary text-center" id="form_spin" role="status" style="display: none">
-                <span class="sr-only">Loading...</span>
-              </div>
-              <input type="button" class="btn btn-success" value="Send Message" id="submit_form" />
-            </form>
-
-            <script>
-              $("document").ready(function () {
-                $("#submit_form").click(function () {
-                  if (!$("#name").val() || !$("#contact").val()) {
-                    alert(
-                      "Please fill all details carefully then try again !!!"
-                    );
-                    return false;
-                  }
-                  // method if empty check robo field is filled
-                  if ($("#check").val()) {
-                    alert("robo caught");
-                    return false;
-                  }
-                  $("#form_spin").css("display", "block");
-                  $.ajax({
-                    type: "GET",
-                    data: {
-                      name: $("#name").val(),
-                      contact: $("#contact").val(),
-                      email: $("#email").val(),
-                      message: $("#message").val(),
-                      to_mail: $("#to_mail").val(),
-                    },
-                    url: "http://dhananjaybhadauria.pythonanywhere.com/api/sending_contact_message/",
-                    success: function (msg) {
-                      $("#response_block").html(msg);
-                      $("#form_spin").css("display", "none");
-                      $("#contact_form")[0].reset();
-                    },
-                    error: function(){
-                      $("#response_block").html("Failed to Send, Try other medium to communicate...");
-                      $("#form_spin").css("display", "none");
-                      $("#contact_form")[0].reset();
-                    }
-                  });
-                });
-              });
-            </script>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- ending contact us form section -->
-  </div>
 </body>
 
 </html>
